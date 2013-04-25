@@ -1,3 +1,7 @@
 *** Cut and paste the for loop here ***
+	{% for message in messages %}
+		{{message}}
+	{% endfor %}
 
 *** What is the for loop doing? ***
+The for loop displays the content of the list 'messages' one item ('message') at a time in the <pre> . . . </pre> block in index.html.
